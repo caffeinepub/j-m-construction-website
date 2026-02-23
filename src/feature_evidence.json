@@ -1,0 +1,101 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-a-professional-homepage-showcasing-j-m-construction-as-a-kolkata-based-sanitary-and-plumbing-contractor-with-8-years-of-experience-and-3-decades-of-family-business-history",
+      "featureTitle": "Create a professional homepage showcasing J M Construction as a Kolkata-based sanitary and plumbing contractor with 8 years of experience and 3 decades of family business history",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Hero.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-an-about-section-describing-the-company-s-expertise-in-sanitary-and-plumbing-contracting-services",
+      "featureTitle": "Create an About section describing the company's expertise in sanitary and plumbing contracting services",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/About.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-services-section-listing-the-main-service-offerings-for-residential-and-commercial-clients",
+      "featureTitle": "Create a Services section listing the main service offerings for residential and commercial clients",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Services.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-contact-section-with-a-form-for-potential-clients-to-reach-out-for-quotes-or-inquiries",
+      "featureTitle": "Create a Contact section with a form for potential clients to reach out for quotes or inquiries",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Contact.tsx",
+        "frontend/src/components/ContactForm.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-apply-a-professional-trustworthy-design-theme-appropriate-for-a-construction-and-contracting-business-using-warm-earthy-tones-such-as-browns-oranges-or-grays-with-clean-typography-and-a-structured-layout-that-conveys-reliability-and-expertise",
+      "featureTitle": "Apply a professional, trustworthy design theme appropriate for a construction and contracting business, using warm, earthy tones (such as browns, oranges, or grays) with clean typography and a structured layout that conveys reliability and expertise",
+      "files": [
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

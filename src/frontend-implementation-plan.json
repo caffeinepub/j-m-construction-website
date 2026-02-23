@@ -1,0 +1,121 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "J M Construction Business Website",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Create professional homepage showcasing J M Construction with company details and experience",
+      "acceptanceCriteria": [
+        "Homepage displays company name 'J M Construction'",
+        "Location 'Kolkata' is prominently shown",
+        "Experience of 8 years in the field is displayed",
+        "Family business heritage of over 30 years (3 decades) is highlighted",
+        "Services (sanitary and plumbing contracting) are clearly listed"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "create",
+          "description": "Create Hero component displaying J M Construction branding with professional hero background image (frontend/public/assets/generated/hero-bg.dim_1920x800.png), company name, Kolkata location, 8 years experience, and 3 decades family business heritage. Include company logo (frontend/public/assets/generated/logo.dim_300x300.png) and brief service description."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Hero component at the top of the main application layout, ensuring it's the first section users see when visiting the homepage."
+        }
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "summary": "Create About section describing sanitary and plumbing contracting expertise",
+      "acceptanceCriteria": [
+        "Section describes sanitary contracting services",
+        "Section describes plumbing contracting services",
+        "Content emphasizes professional expertise and reliability"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/About.tsx",
+          "operation": "create",
+          "description": "Create About section component describing J M Construction's expertise in sanitary and plumbing contracting services. Emphasize professional expertise, reliability, family business heritage, and commitment to quality work. Include content about both sanitary and plumbing specializations."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the About component below the Hero section in the main application layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "summary": "Create Services section listing main service offerings",
+      "acceptanceCriteria": [
+        "Services section includes sanitary installation and maintenance",
+        "Services section includes plumbing installation and repairs",
+        "Services are organized in an easy-to-read format"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Services.tsx",
+          "operation": "create",
+          "description": "Create Services section component listing main service offerings including sanitary installation and maintenance, plumbing installation and repairs. Display services in a clean, organized grid or card layout. Use service icons: frontend/public/assets/generated/sanitary-icon.dim_128x128.png for sanitary services and frontend/public/assets/generated/plumbing-icon.dim_128x128.png for plumbing services. Target both residential and commercial clients."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Services component below the About section in the main application layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "summary": "Create Contact section with form for client inquiries and quotes",
+      "acceptanceCriteria": [
+        "Contact form includes fields for name, email, phone, and message",
+        "Backend stores contact form submissions",
+        "Form validates required fields before submission",
+        "Success message is displayed after form submission"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ContactForm.tsx",
+          "operation": "create",
+          "description": "Create ContactForm component with fields for name, company name, email, phone (optional), and message. Implement client-side validation for required fields (name, email, message). On successful submission, call backend submitContactEntry method from backend.d.ts with name, companyName, email, message, and current timestamp. Display success message after form submission. Handle errors gracefully."
+        },
+        {
+          "path": "frontend/src/components/Contact.tsx",
+          "operation": "create",
+          "description": "Create Contact section component that includes the ContactForm component and displays company contact information (location, business description). Provide clear heading and instructions for potential clients to reach out for quotes or inquiries."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Contact component below the Services section in the main application layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "summary": "Apply professional, trustworthy design theme with warm earthy tones and clean typography",
+      "acceptanceCriteria": [
+        "Color scheme uses professional, construction-appropriate colors (avoiding blue and purple)",
+        "Typography is clean and readable",
+        "Layout is structured and conveys professionalism",
+        "Overall design communicates trust and expertise"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Update global styles with professional color palette using warm, earthy tones such as browns, oranges, grays, and neutral tones appropriate for a construction business. Define CSS custom properties for primary, secondary, accent colors, and background shades. Ensure clean, readable typography with appropriate font families and sizes. Avoid blue and purple tones."
+        },
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Extend Tailwind configuration with custom theme colors matching the professional construction business palette (warm browns, oranges, grays). Configure typography settings for clean, readable fonts. Add spacing and layout utilities that support structured, professional design conveying reliability and expertise."
+        }
+      ]
+    }
+  ]
+}

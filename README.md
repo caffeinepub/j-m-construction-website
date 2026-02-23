@@ -1,2 +1,3 @@
-# j-m-construction-website
-Exported from Caffeine project: J M Construction Website
+## J M Construction Website
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

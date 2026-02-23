@@ -1,0 +1,110 @@
+{
+  "kind": "build_request",
+  "title": "Create J M Construction business website",
+  "projectName": "J M Construction",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a professional homepage showcasing J M Construction as a Kolkata-based sanitary and plumbing contractor with 8 years of experience and 3 decades of family business history",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "J M CONSTRUCTION KOLKATA BASED SANITARY AND PLUMBING CONTRACTOR EXPERIENCE 8years In this Field Family Business over 3 dacket"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Homepage displays company name 'J M Construction'",
+        "Location 'Kolkata' is prominently shown",
+        "Experience of 8 years in the field is displayed",
+        "Family business heritage of over 30 years (3 decades) is highlighted",
+        "Services (sanitary and plumbing contracting) are clearly listed"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Create an About section describing the company's expertise in sanitary and plumbing contracting services",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "SANITARY AND PLUMBING CONTRACTOR"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section describes sanitary contracting services",
+        "Section describes plumbing contracting services",
+        "Content emphasizes professional expertise and reliability"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create a Services section listing the main service offerings for residential and commercial clients",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Services section includes sanitary installation and maintenance",
+        "Services section includes plumbing installation and repairs",
+        "Services are organized in an easy-to-read format"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Create a Contact section with a form for potential clients to reach out for quotes or inquiries",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Contact form includes fields for name, email, phone, and message",
+        "Backend stores contact form submissions",
+        "Form validates required fields before submission",
+        "Success message is displayed after form submission"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Apply a professional, trustworthy design theme appropriate for a construction and contracting business, using warm, earthy tones (such as browns, oranges, or grays) with clean typography and a structured layout that conveys reliability and expertise",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color scheme uses professional, construction-appropriate colors (avoiding blue and purple)",
+        "Typography is clean and readable",
+        "Layout is structured and conveys professionalism",
+        "Overall design communicates trust and expertise"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "E-commerce or payment processing",
+    "Real-time chat or customer support system",
+    "Content management system for dynamic updates",
+    "Multi-language support",
+    "User authentication or client portal"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Professional hero background image showing plumbing or construction work in progress (hero-bg.dim_1920x800.png)",
+      "Company logo featuring construction or plumbing tools with 'J M Construction' text (logo.dim_300x300.png)",
+      "Icon representing sanitary services with modern fixtures (sanitary-icon.dim_128x128.png)",
+      "Icon representing plumbing services with pipes or wrenches (plumbing-icon.dim_128x128.png)"
+    ],
+    "edits": []
+  }
+}

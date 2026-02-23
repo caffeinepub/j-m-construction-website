@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Motoko actor defining ContactEntry type and providing functions to submit, retrieve by ID, and get all contact form entries with timestamp-based ordering.",
+  "feature_evidence.json": "Feature evidence report documenting five implemented features (homepage, about, services, contact, design theme) with associated files, components, and test IDs.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of all frontend source files describing components, hooks, styles, and utilities for the J M Construction website.",
+  "frontend/index.css": "Tailwind CSS configuration with OKLCH color system defining warm, earthy construction-themed colors for light and dark modes.",
+  "frontend/index.html": "HTML entry point for the React application with root div and module script reference to main.tsx.",
+  "frontend/src/App.tsx": "Root React component rendering the complete single-page website with Hero, About, Services, Contact, and Footer sections.",
+  "frontend/src/components/About.tsx": "About section component showcasing J M Construction's 30-year heritage, 8 years of expertise, and four key value propositions with icons.",
+  "frontend/src/components/Contact.tsx": "Contact section displaying company location, business hours, and trust badges alongside the integrated ContactForm component.",
+  "frontend/src/components/ContactForm.tsx": "Form component with validation that submits contact entries to the backend actor and displays success/error states with loading indicators.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying company info, quick links, services list, copyright notice, and attribution link to caffeine.ai with dynamic year and hostname-based identifier.",
+  "frontend/src/components/Hero.tsx": "Hero section component featuring company logo, name, location (Kolkata), tagline, three stat cards (8 years experience, 3 decades heritage, expert quality), CTA button, and animated scroll indicator over a background image with gradient overlay.",
+  "frontend/src/components/Services.tsx": "Services section component displaying a grid of six service cards (sanitary installation, plumbing installation, repairs, residential/commercial projects, system upgrades) with icons, descriptions, and feature lists.",
+  "frontend/src/hooks/useActor.ts": "Custom React hook that manages the backend actor instance using React Query, creating authenticated or anonymous actors based on Internet Identity state and invalidating dependent queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login state, identity persistence, and AuthClient lifecycle with configurable options for ICP integration.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for contact entry operations: mutation hook for submitting new entries and query hooks for fetching all entries or a single entry by ID using the backend actor.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables defining a warm, earthy construction-themed color palette for both light and dark modes using OKLCH color space.",
+  "frontend/src/lib/utils.ts": "Utility function combining clsx and tailwind-merge for conditional CSS class name merging with Tailwind CSS conflict resolution.",
+  "frontend/src/main.tsx": "Application entry point that renders the root component wrapped in QueryClientProvider and InternetIdentityProvider for React Query and ICP authentication support.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration file defining custom theme extensions including color schemes using OKLCH color space, typography with Inter font family, container settings, border radius variables, custom shadows, and animation keyframes for accordion components.",
+  "project_state.json": "Project state file for J M Construction website tracking 5 existing features (homepage, about, services, contact sections, and professional design theme) and 3 pending feature requests, with metadata indicating it's a Kolkata-based sanitary and plumbing contractor site requiring specific images."
+}

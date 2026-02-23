@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.625rem;
+        
+        /* Warm, earthy construction palette - Light Mode */
+        --background: 0.98 0.01 45;
+        --foreground: 0.25 0.02 35;
+        
+        --card: 1 0 0;
+        --card-foreground: 0.25 0.02 35;
+        
+        --popover: 1 0 0;
+        --popover-foreground: 0.25 0.02 35;
+        
+        /* Primary: Rich terracotta/burnt orange */
+        --primary: 0.52 0.15 35;
+        --primary-foreground: 0.98 0.01 45;
+        
+        /* Secondary: Warm brown */
+        --secondary: 0.88 0.02 45;
+        --secondary-foreground: 0.25 0.02 35;
+        
+        /* Muted: Light warm gray */
+        --muted: 0.92 0.01 45;
+        --muted-foreground: 0.50 0.02 35;
+        
+        /* Accent: Warm amber */
+        --accent: 0.75 0.12 55;
+        --accent-foreground: 0.25 0.02 35;
+        
+        --destructive: 0.577 0.245 27.325;
+        --destructive-foreground: 0.985 0 0;
+        
+        --border: 0.88 0.01 45;
+        --input: 0.88 0.01 45;
+        --ring: 0.52 0.15 35;
+        
+        --chart-1: 0.52 0.15 35;
+        --chart-2: 0.60 0.12 55;
+        --chart-3: 0.45 0.10 25;
+        --chart-4: 0.70 0.14 45;
+        --chart-5: 0.55 0.13 40;
+        
+        --sidebar: 0.98 0.01 45;
+        --sidebar-foreground: 0.25 0.02 35;
+        --sidebar-primary: 0.52 0.15 35;
+        --sidebar-primary-foreground: 0.98 0.01 45;
+        --sidebar-accent: 0.92 0.01 45;
+        --sidebar-accent-foreground: 0.25 0.02 35;
+        --sidebar-border: 0.88 0.01 45;
+        --sidebar-ring: 0.52 0.15 35;
+    }
+
+    .dark {
+        /* Dark mode with warm tones */
+        --background: 0.18 0.02 35;
+        --foreground: 0.95 0.01 45;
+        
+        --card: 0.22 0.02 35;
+        --card-foreground: 0.95 0.01 45;
+        
+        --popover: 0.22 0.02 35;
+        --popover-foreground: 0.95 0.01 45;
+        
+        /* Primary: Lighter terracotta for dark mode */
+        --primary: 0.65 0.15 35;
+        --primary-foreground: 0.18 0.02 35;
+        
+        --secondary: 0.28 0.02 35;
+        --secondary-foreground: 0.95 0.01 45;
+        
+        --muted: 0.28 0.02 35;
+        --muted-foreground: 0.70 0.01 45;
+        
+        --accent: 0.40 0.08 45;
+        --accent-foreground: 0.95 0.01 45;
+        
+        --destructive: 0.704 0.191 22.216;
+        --destructive-foreground: 0.95 0.01 45;
+        
+        --border: 0.30 0.02 35;
+        --input: 0.30 0.02 35;
+        --ring: 0.65 0.15 35;
+        
+        --chart-1: 0.65 0.15 35;
+        --chart-2: 0.70 0.12 55;
+        --chart-3: 0.55 0.10 25;
+        --chart-4: 0.75 0.14 45;
+        --chart-5: 0.60 0.13 40;
+        
+        --sidebar: 0.22 0.02 35;
+        --sidebar-foreground: 0.95 0.01 45;
+        --sidebar-primary: 0.65 0.15 35;
+        --sidebar-primary-foreground: 0.18 0.02 35;
+        --sidebar-accent: 0.28 0.02 35;
+        --sidebar-accent-foreground: 0.95 0.01 45;
+        --sidebar-border: 0.30 0.02 35;
+        --sidebar-ring: 0.65 0.15 35;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-feature-settings: "rlig" 1, "calt" 1;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}

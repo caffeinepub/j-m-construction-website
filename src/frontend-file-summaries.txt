@@ -1,0 +1,17 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the complete website structure with Hero, About, Services, Contact, and Footer sections in a single-page layout.",
+  "frontend/src/components/Hero.tsx": "Hero section component featuring the company logo, name, location (Kolkata), experience stats (8 years, 3 decades family business), and a call-to-action button with a professional background image overlay.",
+  "frontend/src/components/About.tsx": "About section component describing J M Construction's expertise in sanitary and plumbing contracting, highlighting reliability, professionalism, quality, and the company's 30-year family business heritage.",
+  "frontend/src/components/Services.tsx": "Services section component displaying a grid of six service offerings (sanitary installation, plumbing installation, repairs, residential, commercial, and system upgrades) with icons and detailed features.",
+  "frontend/src/components/Contact.tsx": "Contact section component that displays company contact information (location, business hours) and integrates the ContactForm component for client inquiries.",
+  "frontend/src/components/ContactForm.tsx": "Contact form component with validation that collects name, company name, email, and message, submits to the backend via submitContactEntry, and displays success/error states.",
+  "frontend/src/components/Footer.tsx": "Footer component with company information, quick links, services list, copyright notice, and attribution link to caffeine.ai with UTM tracking parameters.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for backend interactions including useSubmitContactEntry, useGetAllContactEntries, and useGetContactEntry with proper state management and invalidation.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring warm, earthy construction-appropriate colors (terracotta, browns, warm grays) for both light and dark modes, avoiding blue and purple tones.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with custom warm color palette, Inter font family, custom shadows (warm, warm-lg), and construction-themed design tokens.",
+  "frontend/src/components/ui/button.tsx": "Reusable Button component from shadcn/ui with multiple variants (default, destructive, outline, secondary, ghost, link) and sizes.",
+  "frontend/src/components/ui/input.tsx": "Reusable Input component from shadcn/ui with consistent styling and focus states.",
+  "frontend/src/components/ui/label.tsx": "Reusable Label component from shadcn/ui for form field labels with proper accessibility.",
+  "frontend/src/components/ui/textarea.tsx": "Reusable Textarea component from shadcn/ui for multi-line text input with consistent styling.",
+  "frontend/src/lib/utils.ts": "Utility functions including cn() for merging Tailwind CSS classes using clsx and tailwind-merge."
+}
