@@ -1,59 +1,35 @@
 {
   "kind": "coverage_report",
   "version": "1.0",
-  "generatedAt": "2026-02-23T23:22:06.258Z",
+  "generatedAt": "2026-02-23T23:35:15.580Z",
   "sources": {
     "buildRequest": true,
     "implementationPlan": true
   },
   "requirements": {
-    "total": 3,
-    "implemented": 3,
+    "total": 1,
+    "implemented": 1,
     "items": [
       {
-        "id": "REQ-6",
-        "summary": "Display the Gmail contact address 'jmconstruction.sp@gmail.com' prominently in the Contact section",
+        "id": "REQ-9",
+        "summary": "Replace the company logo image located at XPath /html[1]/body[1]/div[1]/div[1]/section[1]/div[2]/div[1]/div[1]/img[1] in the Hero section with a new company logo for J M Construction",
         "status": "implemented",
         "plannedFiles": [
-          "frontend/src/components/Contact.tsx"
+          "frontend/src/components/Hero.tsx"
         ],
         "matchedFiles": [
-          "frontend/src/components/Contact.tsx"
-        ]
-      },
-      {
-        "id": "REQ-7",
-        "summary": "Update the Services section to clearly state that J M Construction works exclusively on new residential apartments and does not provide small maintenance services",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/Services.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/Services.tsx"
-        ]
-      },
-      {
-        "id": "REQ-8",
-        "summary": "Add the Gmail contact address 'jmconstruction.sp@gmail.com' to the Footer component for easy access across the site",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/Footer.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/components/Footer.tsx"
+          "frontend/src/components/Hero.tsx"
         ]
       }
     ]
   },
   "changedFiles": [
     "build-request.json",
-    "build-template/README.md",
     "feature_evidence.json",
     "frontend-file-summaries.txt",
     "frontend-implementation-plan.json",
-    "frontend/src/components/Contact.tsx",
-    "frontend/src/components/Footer.tsx",
-    "frontend/src/components/Services.tsx",
+    "frontend/public/assets/generated/jm-logo.dim_200x200.png",
+    "frontend/src/components/Hero.tsx",
     "project_state.json",
     "scratch/component-selection.json",
     "spec.md",

@@ -1,53 +1,21 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Add Gmail contact and clarify service scope to new residential apartments only",
+  "title": "Replace company logo image in Hero section",
   "requirements": [
     {
-      "id": "REQ-6",
-      "summary": "Display the Gmail contact address 'jmconstruction.sp@gmail.com' prominently in the Contact section",
+      "id": "REQ-9",
+      "summary": "Replace the company logo image in the Hero section with a new J M Construction logo",
       "acceptanceCriteria": [
-        "The email address 'jmconstruction.sp@gmail.com' is visible in the Contact section",
-        "The email address is clickable as a mailto link",
-        "The email styling is consistent with the existing design theme"
+        "The new logo image replaces the existing image element at the specified XPath location",
+        "The logo maintains appropriate dimensions and styling consistent with the Hero section design",
+        "The logo is clearly visible against the Hero section background"
       ],
       "file_operations": [
         {
-          "path": "frontend/src/components/Contact.tsx",
+          "path": "frontend/src/components/Hero.tsx",
           "operation": "modify",
-          "description": "Add the Gmail contact address 'jmconstruction.sp@gmail.com' as a prominent mailto link in the Contact section's company information area, styled consistently with the existing warm, earthy design theme using the OKLCH color system"
-        }
-      ]
-    },
-    {
-      "id": "REQ-7",
-      "summary": "Update the Services section to clearly state that J M Construction works exclusively on new residential apartments and does not provide small maintenance services",
-      "acceptanceCriteria": [
-        "A prominent notice or disclaimer states that services are limited to new residential apartments only",
-        "The disclaimer clearly indicates that small maintenance services are not provided",
-        "The message is positioned where potential clients will see it before contacting the company"
-      ],
-      "file_operations": [
-        {
-          "path": "frontend/src/components/Services.tsx",
-          "operation": "modify",
-          "description": "Add a prominent disclaimer at the top of the Services section stating that J M Construction works exclusively on new residential apartments and does not provide small maintenance services, styled with the existing design theme to ensure visibility while maintaining all existing service descriptions intact"
-        }
-      ]
-    },
-    {
-      "id": "REQ-8",
-      "summary": "Add the Gmail contact address 'jmconstruction.sp@gmail.com' to the Footer component for easy access across the site",
-      "acceptanceCriteria": [
-        "The email address appears in the Footer's company information section",
-        "The email is formatted as a clickable mailto link",
-        "The footer email styling matches the existing footer design"
-      ],
-      "file_operations": [
-        {
-          "path": "frontend/src/components/Footer.tsx",
-          "operation": "modify",
-          "description": "Add the Gmail contact address 'jmconstruction.sp@gmail.com' as a clickable mailto link in the Footer's company information section, ensuring the styling matches the existing footer design with the warm, earthy theme"
+          "description": "Replace the existing company logo image source with the new generated logo at frontend/public/assets/generated/jm-logo.dim_200x200.png. Update the img element's src attribute to reference the new logo file while maintaining existing className, alt text, and other attributes. Ensure the logo dimensions and styling remain consistent with the Hero section design and that it is clearly visible against the background."
         }
       ]
     }

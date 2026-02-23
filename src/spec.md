@@ -1,11 +1,10 @@
 # Specification
 
 ## Summary
-**Goal:** Add Gmail contact information and clarify that J M Construction services are limited to new residential apartments only.
+**Goal:** Replace the company logo in the Hero section with a new J M Construction logo.
 
 **Planned changes:**
-- Display the Gmail contact address 'jmconstruction.sp@gmail.com' in the Contact section as a clickable mailto link
-- Add the same Gmail address to the Footer component for site-wide access
-- Update the Services section with a prominent notice stating that services are exclusively for new residential apartments and small maintenance services are not provided
+- Replace the existing logo image in the Hero section with a new company logo for J M Construction
+- Ensure the new logo maintains appropriate dimensions and visibility against the Hero background
 
-**User-visible outcome:** Visitors can easily contact J M Construction via the displayed Gmail address and clearly understand that services are only available for new residential apartment projects, not small maintenance work.
+**User-visible outcome:** The Hero section displays the new J M Construction company logo with consistent styling and visibility.

@@ -1,6 +1,6 @@
 {
   "frontend/src/App.tsx": "Main application component that renders the complete website structure with Hero, About, Services, Contact, and Footer sections in a single-page layout.",
-  "frontend/src/components/Hero.tsx": "Hero section component featuring the company logo, name, location (Kolkata), experience stats (8 years, 3 decades family business), and a call-to-action button with a professional background image overlay.",
+  "frontend/src/components/Hero.tsx": "Hero section component featuring the new J M Construction logo (jm-logo.dim_200x200.png), company name, location (Kolkata), experience stats (8 years, 3 decades family business), and a call-to-action button with a professional background image overlay.",
   "frontend/src/components/About.tsx": "About section component describing J M Construction's expertise in sanitary and plumbing contracting, highlighting reliability, professionalism, quality, and the company's 30-year family business heritage.",
   "frontend/src/components/Services.tsx": "Services section component with a prominent alert notice stating that J M Construction works exclusively on new residential apartments and does not provide small maintenance services, followed by a grid of six service offerings with icons and detailed features.",
   "frontend/src/components/Contact.tsx": "Contact section component displaying company contact information including location, email (jmconstruction.sp@gmail.com as a clickable mailto link), and business hours, along with the ContactForm component for client inquiries.",

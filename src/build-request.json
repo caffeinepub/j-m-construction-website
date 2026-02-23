@@ -1,76 +1,41 @@
 {
   "kind": "build_request",
-  "title": "Add Gmail contact and clarify service scope to new residential apartments only",
-  "projectName": "J M Construction",
+  "title": "Replace company logo image in Hero section",
   "priority": "normal",
   "requirements": [
     {
-      "id": "REQ-6",
-      "text": "Display the Gmail contact address 'jmconstruction.sp@gmail.com' prominently in the Contact section",
+      "id": "REQ-9",
+      "text": "Replace the company logo image located at XPath /html[1]/body[1]/div[1]/div[1]/section[1]/div[2]/div[1]/div[1]/img[1] in the Hero section with a new company logo for J M Construction",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-last"
+          "msg-user-change"
         ],
         "quotes": [
-          "Add gmail for connecting us :- jmconstruction.sp@gmail.com"
+          "Change"
         ]
       },
       "acceptanceCriteria": [
-        "The email address 'jmconstruction.sp@gmail.com' is visible in the Contact section",
-        "The email address is clickable as a mailto link",
-        "The email styling is consistent with the existing design theme"
-      ]
-    },
-    {
-      "id": "REQ-7",
-      "text": "Update the Services section to clearly state that J M Construction works exclusively on new residential apartments and does not provide small maintenance services",
-      "target": "frontend",
-      "source": {
-        "messageIds": [
-          "msg-last"
-        ],
-        "quotes": [
-          "We work Only New Residential Apartments we can't provide any small maintenance services"
-        ]
-      },
-      "acceptanceCriteria": [
-        "A prominent notice or disclaimer states that services are limited to new residential apartments only",
-        "The disclaimer clearly indicates that small maintenance services are not provided",
-        "The message is positioned where potential clients will see it before contacting the company"
-      ]
-    },
-    {
-      "id": "REQ-8",
-      "text": "Add the Gmail contact address 'jmconstruction.sp@gmail.com' to the Footer component for easy access across the site",
-      "target": "frontend",
-      "source": {
-        "messageIds": [
-          "msg-last"
-        ],
-        "quotes": [
-          "Add gmail for connecting us :- jmconstruction.sp@gmail.com"
-        ]
-      },
-      "acceptanceCriteria": [
-        "The email address appears in the Footer's company information section",
-        "The email is formatted as a clickable mailto link",
-        "The footer email styling matches the existing footer design"
+        "The new logo image replaces the existing image element at the specified XPath location",
+        "The logo maintains appropriate dimensions and styling consistent with the Hero section design",
+        "The logo is clearly visible against the Hero section background"
       ]
     }
   ],
   "constraints": [
-    "Do not modify the backend ContactForm submission logic",
-    "Maintain the existing warm, earthy design theme",
-    "Keep all existing service descriptions and content intact while adding the scope clarification"
+    "Only modify the image element at the specified XPath location in the Hero section",
+    "Maintain the existing Hero section layout and styling",
+    "Preserve all other Hero section elements (company name, location, tagline, stats, CTA button)"
   ],
   "nonGoals": [
-    "Removing or hiding any existing services from the Services section",
-    "Creating a new contact form or backend submission method",
-    "Adding phone numbers or other contact methods not specified by the user"
+    "Changing any other images or elements on the page",
+    "Modifying the Hero section layout or structure",
+    "Updating other components or sections"
   ],
   "imageRequirements": {
-    "required": [],
+    "required": [
+      "Professional company logo for J M Construction, a sanitary and plumbing contractor, featuring construction-related imagery with warm, earthy tones matching the site's brown/orange color scheme (jm-logo.dim_200x200.png)"
+    ],
     "edits": []
   }
 }

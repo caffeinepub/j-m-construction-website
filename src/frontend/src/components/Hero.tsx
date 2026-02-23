@@ -19,7 +19,7 @@ export default function Hero() {
           {/* Logo */}
           <div className="mb-8 flex justify-center">
             <img
-              src="/assets/generated/logo.dim_300x300.png"
+              src="/assets/generated/jm-logo.dim_200x200.png"
               alt="J M Construction Logo"
               className="w-32 h-32 md:w-40 md:h-40 rounded-full shadow-2xl border-4 border-primary-foreground/20"
             />

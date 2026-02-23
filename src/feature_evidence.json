@@ -2,10 +2,10 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-display-the-gmail-contact-address-jmconstruction-sp-gmail-com-prominently-in-the-contact-section",
-      "featureTitle": "Display the Gmail contact address 'jmconstruction.sp@gmail.com' prominently in the Contact section",
+      "featureId": "feature-replace-the-company-logo-image-located-at-xpath-html-1-body-1-div-1-div-1-section-1-div-2-div-1-div-1-img-1-in-the-hero-section-with-a-new-company-logo-for-j-m-construction",
+      "featureTitle": "Replace the company logo image located at XPath /html[1]/body[1]/div[1]/div[1]/section[1]/div[2]/div[1]/div[1]/img[1] in the Hero section with a new company logo for J M Construction",
       "files": [
-        "frontend/src/components/Contact.tsx"
+        "frontend/src/components/Hero.tsx"
       ],
       "components": [
         "core-infrastructure@1.0.2",
@@ -15,43 +15,7 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-6"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-update-the-services-section-to-clearly-state-that-j-m-construction-works-exclusively-on-new-residential-apartments-and-does-not-provide-small-maintenance-services",
-      "featureTitle": "Update the Services section to clearly state that J M Construction works exclusively on new residential apartments and does not provide small maintenance services",
-      "files": [
-        "frontend/src/components/Services.tsx"
-      ],
-      "components": [
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-7"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-add-the-gmail-contact-address-jmconstruction-sp-gmail-com-to-the-footer-component-for-easy-access-across-the-site",
-      "featureTitle": "Add the Gmail contact address 'jmconstruction.sp@gmail.com' to the Footer component for easy access across the site",
-      "files": [
-        "frontend/src/components/Footer.tsx"
-      ],
-      "components": [
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-8"
+        "REQ-9"
       ],
       "confidence": "high"
     }
