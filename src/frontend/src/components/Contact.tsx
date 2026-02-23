@@ -1,5 +1,5 @@
 import ContactForm from './ContactForm';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { MapPin, Mail, Clock } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -41,22 +41,27 @@ export default function Contact() {
 
                 <div className="flex items-start gap-4">
                   <div className="bg-primary/10 p-3 rounded-lg">
+                    <Mail className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-lg mb-1 text-foreground">Email</h4>
+                    <a 
+                      href="mailto:jmconstruction.sp@gmail.com"
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      jmconstruction.sp@gmail.com
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="bg-primary/10 p-3 rounded-lg">
                     <Clock className="w-6 h-6 text-primary" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg mb-1 text-foreground">Business Hours</h4>
                     <p className="text-muted-foreground">Monday - Saturday: 8:00 AM - 7:00 PM</p>
                     <p className="text-muted-foreground">Sunday: Emergency Services Only</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="bg-primary/10 p-3 rounded-lg">
-                    <Phone className="w-6 h-6 text-primary" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-lg mb-1 text-foreground">Phone</h4>
-                    <p className="text-muted-foreground">Available upon request</p>
                   </div>
                 </div>
               </div>

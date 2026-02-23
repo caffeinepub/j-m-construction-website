@@ -1,15 +1,17 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 3,
-  "summary": "Website for J M Construction, a Kolkata-based sanitary and plumbing contractor with 8 years of experience and 3 decades of family business history",
+  "projectStateVersion": 5,
+  "summary": "Website for J M Construction, a Kolkata-based sanitary and plumbing contractor with 8 years of experience and 3 decades of family business history, specializing exclusively in new residential apartments (no small maintenance services)",
   "architectural_notes": [
     "Website for J M Construction contractor business",
     "Kolkata-based service area",
-    "Free domain requirement"
+    "Free domain requirement",
+    "Contact email: jmconstruction.sp@gmail.com",
+    "Service scope limited to new residential apartments only",
+    "Does not provide small maintenance services"
   ],
   "known_issues": [],
   "isFixRequest": false,
-  "imageRequirements": "## Required Images\n- Professional hero background image showing plumbing or construction work in progress (hero-bg.dim_1920x800.png)\n- Company logo featuring construction or plumbing tools with 'J M Construction' text (logo.dim_300x300.png)\n- Icon representing sanitary services with modern fixtures (sanitary-icon.dim_128x128.png)\n- Icon representing plumbing services with pipes or wrenches (plumbing-icon.dim_128x128.png)",
   "existing_features": [
     {
       "id": "feature-create-a-professional-homepage-showcasing-j-m-construction-as-a-kolkata-based-sanitary-and-plumbing-contractor-with-8-years-of-experience-and-3-decades-of-family-business-history",
@@ -50,6 +52,30 @@
         "REQ-5"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-display-the-gmail-contact-address-jmconstruction-sp-gmail-com-prominently-in-the-contact-section",
+      "title": "Display the Gmail contact address 'jmconstruction.sp@gmail.com' prominently in the Contact section",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-services-section-to-clearly-state-that-j-m-construction-works-exclusively-on-new-residential-apartments-and-does-not-provide-small-maintenance-services",
+      "title": "Update the Services section to clearly state that J M Construction works exclusively on new residential apartments and does not provide small maintenance services",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-gmail-contact-address-jmconstruction-sp-gmail-com-to-the-footer-component-for-easy-access-across-the-site",
+      "title": "Add the Gmail contact address 'jmconstruction.sp@gmail.com' to the Footer component for easy access across the site",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
@@ -68,6 +94,18 @@
     {
       "id": "AR-3",
       "summary": "Show services (sanitary and plumbing contracting)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Add contact email (jmconstruction.sp@gmail.com) to website",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Clarify service scope: only new residential apartments, no small maintenance",
       "reqIds": [],
       "status": "pending"
     }

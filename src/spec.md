@@ -1,13 +1,11 @@
 # Specification
 
 ## Summary
-**Goal:** Create a professional business website for J M Construction, a Kolkata-based sanitary and plumbing contractor with 8 years of experience and a 30-year family business heritage.
+**Goal:** Add Gmail contact information and clarify that J M Construction services are limited to new residential apartments only.
 
 **Planned changes:**
-- Build a homepage highlighting J M Construction's location, experience, and family business history
-- Create an About section describing sanitary and plumbing contracting expertise
-- Add a Services section listing sanitary installation/maintenance and plumbing installation/repairs
-- Implement a Contact section with a form (name, email, phone, message) that stores submissions
-- Apply a professional design using warm, earthy tones (browns, oranges, grays) with clean typography and structured layout
+- Display the Gmail contact address 'jmconstruction.sp@gmail.com' in the Contact section as a clickable mailto link
+- Add the same Gmail address to the Footer component for site-wide access
+- Update the Services section with a prominent notice stating that services are exclusively for new residential apartments and small maintenance services are not provided
 
-**User-visible outcome:** Visitors can learn about J M Construction's services, experience, and heritage, and submit inquiries through a contact form.
+**User-visible outcome:** Visitors can easily contact J M Construction via the displayed Gmail address and clearly understand that services are only available for new residential apartment projects, not small maintenance work.

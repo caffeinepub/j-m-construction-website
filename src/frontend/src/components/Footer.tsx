@@ -1,4 +1,4 @@
-import { Heart } from 'lucide-react';
+import { Heart, Mail } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -19,6 +19,15 @@ export default function Footer() {
                 Professional sanitary and plumbing contractors serving Kolkata with 8 years of experience 
                 and 30+ years of family business heritage.
               </p>
+              <div className="flex items-center gap-2 opacity-90">
+                <Mail className="w-4 h-4" />
+                <a 
+                  href="mailto:jmconstruction.sp@gmail.com"
+                  className="hover:opacity-100 transition-opacity hover:underline"
+                >
+                  jmconstruction.sp@gmail.com
+                </a>
+              </div>
             </div>
 
             {/* Quick Links */}

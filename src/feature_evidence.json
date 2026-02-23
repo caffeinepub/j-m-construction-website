@@ -2,11 +2,10 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-create-a-professional-homepage-showcasing-j-m-construction-as-a-kolkata-based-sanitary-and-plumbing-contractor-with-8-years-of-experience-and-3-decades-of-family-business-history",
-      "featureTitle": "Create a professional homepage showcasing J M Construction as a Kolkata-based sanitary and plumbing contractor with 8 years of experience and 3 decades of family business history",
+      "featureId": "feature-display-the-gmail-contact-address-jmconstruction-sp-gmail-com-prominently-in-the-contact-section",
+      "featureTitle": "Display the Gmail contact address 'jmconstruction.sp@gmail.com' prominently in the Contact section",
       "files": [
-        "frontend/src/App.tsx",
-        "frontend/src/components/Hero.tsx"
+        "frontend/src/components/Contact.tsx"
       ],
       "components": [
         "core-infrastructure@1.0.2",
@@ -16,34 +15,14 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-1"
+        "REQ-6"
       ],
       "confidence": "high"
     },
     {
-      "featureId": "feature-create-an-about-section-describing-the-company-s-expertise-in-sanitary-and-plumbing-contracting-services",
-      "featureTitle": "Create an About section describing the company's expertise in sanitary and plumbing contracting services",
+      "featureId": "feature-update-the-services-section-to-clearly-state-that-j-m-construction-works-exclusively-on-new-residential-apartments-and-does-not-provide-small-maintenance-services",
+      "featureTitle": "Update the Services section to clearly state that J M Construction works exclusively on new residential apartments and does not provide small maintenance services",
       "files": [
-        "frontend/src/App.tsx",
-        "frontend/src/components/About.tsx"
-      ],
-      "components": [
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-2"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-create-a-services-section-listing-the-main-service-offerings-for-residential-and-commercial-clients",
-      "featureTitle": "Create a Services section listing the main service offerings for residential and commercial clients",
-      "files": [
-        "frontend/src/App.tsx",
         "frontend/src/components/Services.tsx"
       ],
       "components": [
@@ -54,17 +33,15 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-3"
+        "REQ-7"
       ],
       "confidence": "high"
     },
     {
-      "featureId": "feature-create-a-contact-section-with-a-form-for-potential-clients-to-reach-out-for-quotes-or-inquiries",
-      "featureTitle": "Create a Contact section with a form for potential clients to reach out for quotes or inquiries",
+      "featureId": "feature-add-the-gmail-contact-address-jmconstruction-sp-gmail-com-to-the-footer-component-for-easy-access-across-the-site",
+      "featureTitle": "Add the Gmail contact address 'jmconstruction.sp@gmail.com' to the Footer component for easy access across the site",
       "files": [
-        "frontend/src/App.tsx",
-        "frontend/src/components/Contact.tsx",
-        "frontend/src/components/ContactForm.tsx"
+        "frontend/src/components/Footer.tsx"
       ],
       "components": [
         "core-infrastructure@1.0.2",
@@ -74,26 +51,7 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-4"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-apply-a-professional-trustworthy-design-theme-appropriate-for-a-construction-and-contracting-business-using-warm-earthy-tones-such-as-browns-oranges-or-grays-with-clean-typography-and-a-structured-layout-that-conveys-reliability-and-expertise",
-      "featureTitle": "Apply a professional, trustworthy design theme appropriate for a construction and contracting business, using warm, earthy tones (such as browns, oranges, or grays) with clean typography and a structured layout that conveys reliability and expertise",
-      "files": [
-        "frontend/src/index.css",
-        "frontend/tailwind.config.js"
-      ],
-      "components": [
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-5"
+        "REQ-8"
       ],
       "confidence": "high"
     }

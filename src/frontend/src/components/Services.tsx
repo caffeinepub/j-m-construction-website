@@ -1,4 +1,5 @@
-import { Droplets, Wrench, Home, Building2, Settings, Zap } from 'lucide-react';
+import { Droplets, Wrench, Home, Building2, Settings, Zap, AlertCircle } from 'lucide-react';
+import { Alert, AlertDescription } from '@/components/ui/alert';
 
 export default function Services() {
   const services = [
@@ -54,6 +55,14 @@ export default function Services() {
               Comprehensive sanitary and plumbing solutions for residential and commercial clients
             </p>
           </div>
+
+          {/* Service Scope Notice */}
+          <Alert className="mb-12 border-primary/50 bg-primary/5">
+            <AlertCircle className="h-5 w-5 text-primary" />
+            <AlertDescription className="text-base ml-2">
+              <strong className="font-semibold text-foreground">Important Notice:</strong> We specialize exclusively in <strong>new residential apartments</strong>. We do not provide small maintenance services. Please contact us only for new construction projects.
+            </AlertDescription>
+          </Alert>
 
           {/* Services Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
